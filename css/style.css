@@ -21,7 +21,7 @@
     font-family: "Roboto", sans-serif;
     color: var(--black-main);
   }
-  header {border-bottom: 1px solid; border-color: var(--border-header);}
+  header {border-bottom: 1px solid; border-color: var(--border-header);border-top: none;}
 
 
 .webstudio { font-family: 'Raleway', sans-serif; 
@@ -29,6 +29,7 @@ font-style: normal;
 font-weight: 700; font-size: 26px;
 line-height: 1.19;
 width: 145px;
+
 }
 
 
@@ -101,10 +102,12 @@ margin-bottom: 50px;}
 
       
 .name { color:var(--black-main);
-font-style: normal; font-size: 16px; font-weight: 500; line-height: 1.17;  }
+font-style: normal; font-size: 16px; font-weight: 500; line-height: 1.17; 
+padding: 30px 99px 10px; }
       
 .profession { color: var(--main-silver);
-font-style: normal; font-size: 16px; font-weight: 400; line-height: 1.17;  }
+font-style: normal; font-size: 16px; font-weight: 400; line-height: 1.17; 
+padding-bottom: 30px; }
       
     
 .button { background-color: var(--background-white);
@@ -151,7 +154,7 @@ color: var(--font-footer); padding-top: 0px; }
 background-color: var(--main-blue);}
 
 .order:active {color: var(--main-blue);}
-/*.order:focus, .order:hover {cursor: pointer;}*/
+
 
 .background-photo {background-color: var(--background-photo);
 text-align: center;
@@ -179,6 +182,7 @@ a:link .contact {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  
   }
 
 .container {
@@ -190,11 +194,14 @@ a:link .contact {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 93px;
   gap: 46px;
   height: 80px;
-  
+  justify-content: space-between; 
 }
+
+.nav-header {margin-left: 93px;
+margin-right: 371px; }
+
 .lorem-wrapper {
   padding: 94px 0 0;
   display: flex;
@@ -236,9 +243,11 @@ a:link .contact {
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+  margin-bottom: 94px;
 }
   .content-footer { 
     padding-left: 0;
+    
   }
   .footer-item { 
     padding: 9px 0;
@@ -269,7 +278,7 @@ margin-bottom: 94px;
 }
 .image-item {flex-basis: calc((100% - 60px) / 3);}
 
-.border-image { border: 1px solid; 
+.border-image { border-left: 1px solid; border-bottom: 1px solid ; border-right: 1px solid;
 border-color: var(--border-image);
 
 
