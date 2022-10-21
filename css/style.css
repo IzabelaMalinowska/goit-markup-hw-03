@@ -48,14 +48,15 @@ margin-right: 93px;}
 }
 
 
-footer {background-color: var(--background-grey);
+.footer-container {background-color: var(--background-grey);
   height: 252px;
   max-width: 1600px;
   }
+.slider {background-color: var(--background-grey);
+  max-width: 1600px;}
   
-.baner {
-  background-color: var(--background-grey);
-  max-width: 1600px;
+.slider-content {
+  
   padding: 200px 0;
   display: flex;
   flex-direction: column;
@@ -223,10 +224,10 @@ margin-right: 371px; }
 }
 .what-we-do-item {
 }
+.our-team-background {background-color: var(--background-white);
+  max-width: 1600px;}
 
 .our-team {
-  background-color: var(--background-white);
-  max-width: 1600px;
   border-radius: 0px;
   display: flex;
   flex-direction: column;
